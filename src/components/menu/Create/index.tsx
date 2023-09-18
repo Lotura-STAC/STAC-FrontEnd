@@ -46,7 +46,7 @@ export const MenuCreateDevice = ({ setMenuState }: MenuMainProps) => {
       setWarningState("장치 고유번호를 입력하세요.");
       return false;
     }
-    if (!inputState.device_no.match(/^[a-zA-Z0-9]+$/)) {
+    if (!inputState.device_no.match(/^[a-zA-Z0-9]$/g)) {
       setWarningState("영문자 또는 숫자만 입력하세요.");
       return false;
     }
