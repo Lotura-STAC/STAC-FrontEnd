@@ -25,7 +25,6 @@ export const DeviceItem = ({
   setHistoryState,
   setDeviceState,
 }: DeviceType & DeviceItemProps) => {
-  console.log(device_no);
   const loginState = useRecoilValue<RadioType>(LoginStateAtom);
   const articleRef = useRef<HTMLElement>(null);
   const isRunning = curr_status === 0;
