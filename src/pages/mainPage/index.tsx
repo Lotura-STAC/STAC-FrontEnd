@@ -55,10 +55,12 @@ export const MainPage = () => {
           image={Home.HomeImg2}
           direction="rtl"
         />
-        <Suggest>
-          <p>아직 회원이 아니신가요?</p>
-          <Link to="/signup">지금 가입하고 시작하세요!</Link>
-        </Suggest>
+        {!isLoggedIn && (
+          <Suggest>
+            <p>아직 회원이 아니신가요?</p>
+            <Link to="/signup">지금 가입하고 시작하세요!</Link>
+          </Suggest>
+        )}
       </Wrapper>
       <Footer />
     </>
