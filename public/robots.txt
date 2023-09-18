@@ -2,5 +2,8 @@
 User-agent: Google
 Disallow:
 
+User-agent: Yeti
+Disallow: 
+
 User-agent: *
 Disallow: /
