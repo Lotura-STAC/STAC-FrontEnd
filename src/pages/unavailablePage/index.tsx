@@ -12,7 +12,7 @@ export const UnavailablePage = () => {
         <h1>LOTURA 웹사이트는 모바일을 지원하지 않습니다.</h1>
         <p>걱정하지 마세요! LOTURA는 모바일에서도 사용할 수 있습니다.</p>
         <a
-          href="http://play.google.com/store/apps/details?id=com.truecaller&hl=en"
+          href="https://play.google.com/store/apps/details?id=com.osj.lotura"
           target="_blank"
           rel="noopener noreferer nofollow"
         >
