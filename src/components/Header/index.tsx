@@ -47,6 +47,13 @@ export const Header = () => {
           >
             고객센터
           </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.osj.lotura"
+            target="_blank"
+            rel="noopener noreferer nofollow"
+          >
+            앱 다운로드
+          </a>
         </nav>
       ) : (
         <nav>
@@ -58,6 +65,13 @@ export const Header = () => {
             rel="noopener noreferer nofollow"
           >
             고객센터
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.osj.lotura"
+            target="_blank"
+            rel="noopener noreferer nofollow"
+          >
+            앱 다운로드
           </a>
         </nav>
       )}
