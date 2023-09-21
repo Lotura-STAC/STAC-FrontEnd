@@ -48,7 +48,7 @@ export const Header = () => {
             고객센터
           </a>
           <a
-            href="https://play.google.com/store/apps/details?id=com.osj.lotura"
+            href="https://play.google.com/store/apps/details?id=com.lotura.stac_flutter"
             target="_blank"
             rel="noopener noreferer nofollow"
           >
@@ -67,7 +67,7 @@ export const Header = () => {
             고객센터
           </a>
           <a
-            href="https://play.google.com/store/apps/details?id=com.osj.lotura"
+            href="https://play.google.com/store/apps/details?id=com.lotura.stac_flutter"
             target="_blank"
             rel="noopener noreferer nofollow"
           >
